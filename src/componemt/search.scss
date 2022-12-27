@@ -1,0 +1,27 @@
+.hover {
+    &:hover {
+        .icon-hover {
+            font-size: 30px;
+            color    : #fff;
+            opacity  : 1;
+            display  : flex;
+            position : absolute;
+            top      : 250px;
+            left     : 270px;
+            cursor   : pointer;
+        }
+    }
+
+    .favourites {
+        color: red !important;
+    }
+
+    .img-hover {
+        &:hover {}
+    }
+
+    .heart {
+        display: none;
+    }
+
+}
